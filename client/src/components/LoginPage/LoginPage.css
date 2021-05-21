@@ -1,0 +1,69 @@
+.loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .google{
+    margin-top: 500px;
+    padding-left: 350px;
+    width: 2000px;
+    /* margin-left: 500px; */
+  }
+  .image img{
+    display: block;
+    margin-left: 60px;
+    /* margin-right: auto; */
+    margin-top: 150px;
+    width: 80%;
+  }
+  .heading h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: -400px;
+  }
+  .heading h2{
+    font-size: 20px;
+    margin-left: -400px;
+    margin-right: 0px;
+    width: 500px;
+  }
+  
+  .loginpage-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .loginpage-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .loginpage-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .loginpage-link {
+    color: #61dafb;
+  }
+  
+  @keyframes loginpage-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
