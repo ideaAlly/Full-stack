@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import GoogleLogin from 'react-google-login'
+
 // import img from './img.jpg';
 export class LoginPage extends Component{
   responseGoogle = (response) =>{
@@ -9,6 +10,7 @@ export class LoginPage extends Component{
 
   render() {
     return (
+      <>
       <div className="loginpage">
           <div className="google">
         <GoogleLogin
@@ -29,8 +31,9 @@ export class LoginPage extends Component{
         {/* <div className="image">
         <img src={img}></img>
         </div> */}
-        </div>
+      </div>
       
+      </>
     )
   }
 }

@@ -1,0 +1,13 @@
+  
+.navbar{
+    position: relative;
+    display: flex;
+}
+
+#logo{
+    position: relative;
+    left:270px;
+    color:cadetblue;
+    font-family: 'Courier New', Courier, monospace;;
+    font-size: 30px;
+}
