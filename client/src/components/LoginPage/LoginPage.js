@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import GoogleLogin from 'react-google-login'
-// import img from './img.jpg';
+import img from './img.jpg';
 export class LoginPage extends Component{
   responseGoogle = (response) =>{
     console.log(response);
@@ -26,9 +26,9 @@ export class LoginPage extends Component{
             <h2>Searching for a teammate for your projects? Trying to find a co-founder for you funded or bootstrapped startup?
                 Find your perfect teammate now.</h2>
         </div>
-        {/* <div className="image">
+        <div className="image">
         <img src={img}></img>
-        </div> */}
+        </div>
         </div>
       
     )
