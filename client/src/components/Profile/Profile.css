@@ -1,0 +1,129 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.Card{
+    width:300px;
+    height:430px;
+    background-color: azure;
+    border-radius: 6px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.Upper-Container{
+    height:150px;
+    background-color: cadetblue;
+}
+
+.Lower-Container{
+    height:280px;
+    background-color: ivory;
+    padding:20px;
+    padding-top:40px;
+    text-align: center;
+}
+
+.Image-Container{
+    background-color: white;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    padding:5px;
+    transform: translate(100px,100px);
+}
+.Image{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.Lower-Container h3, h4{
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+
+}
+
+.Lower-Container h4{
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Btn{
+    padding:12px 20px;
+    background-color: cadetblue;
+    color:white;
+    text-decoration: none;
+    border:none;
+    font-size:12px;
+    border-radius:30px;
+}
+
+.Btn:hover{
+    background-color: transparent;
+    border: 2px solid cadetblue;
+    color:cadetblue;
+}
+
+.ModalCard{
+    height:35em;
+    width: 30em;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color:white;
+    position: relative;
+    display: grid;
+    grid-template-rows: 30% 60% 10%;
+    transform: translate(100%,8%);
+}
+
+.ModalUpper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalLower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalList{
+    margin-bottom: 20px;
+}
+
+
+.ModalLowerButtons{
+    display:flex;
+    justify-content: center;
+}
+.Submit, .Cancel{
+    background-color: aliceblue;
+    color:cadetblue;
+    height:30px;
+    width:80px;
+    margin-right:20px;
+    border: 0px solid cadetblue;
+    border-radius: 30px;
+}
+
+.Submit:hover,.Cancel:hover{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    color:white;
+}
