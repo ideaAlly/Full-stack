@@ -7,11 +7,10 @@ import { BsPhone } from "react-icons/bs";
 import { BsBuilding} from "react-icons/bs";
 import {BsHeartFill } from "react-icons/bs";
 import './Profile.css';
-import Modal from "react-modal";
-
-Modal.setAppElement('#root');
+import EditProfile from './EditProfile';
+import { useHistory } from 'react-router-dom';
 const Profile = () => {
-    const [ModalIsOpen,setModalIsOpen] = useState(false);
+    let history = useHistory();
     return(
         <>
             <div className="Card">
@@ -34,11 +33,13 @@ const Profile = () => {
                     </div>
                     <div>
                         <button className="Btn" onClick={() => {
-							setModalIsOpen(true)	;
-                        }}>Edit Profile</button>
+                            history.push("/EditProfile")
+                        }
+                            
+                        }>Edit Profile</button>
 
                         
-                        <Modal
+                        {/* <Modal
                             isOpen={ModalIsOpen}
                             onRequestClose={() => setModalIsOpen(false)}
                             style={{
@@ -89,7 +90,7 @@ const Profile = () => {
                             </div>
 
                             
-                        </Modal>
+                        </Modal> */}
                         
                     </div>
                 </div>
